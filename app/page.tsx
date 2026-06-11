@@ -7,6 +7,7 @@ import Testimonials from "@/components/Testimonials";
 import ServiceAreas from "@/components/ServiceAreas";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import MobileCTA from "@/components/MobileCTA";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <ServiceAreas />
       <Contact />
       <Footer />
+      <MobileCTA />
     </main>
   );
 }
